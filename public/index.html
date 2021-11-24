@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/sw.js");
+        });
+      }
+    </script>
+
+    <script src="index.ts"></script>
+  </head>
+
+  <body></body>
+</html>
