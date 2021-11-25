@@ -1,0 +1,12 @@
+{
+  "name": "wasm-esbuild",
+  "version": "0.1.1",
+  "description": "Compile TS files in a Service Worker on the fly, using esbuild in WebAssembly",
+  "repository": "git@github.com:mdubourg001/wasm-esbuild-experiment.git",
+  "author": "maxime.dubourg@protonmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepublish": "./build.sh"
+  }
+}
